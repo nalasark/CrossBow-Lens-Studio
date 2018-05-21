@@ -1,7 +1,7 @@
 {
     "lens_id": "",
     "version": "0",
-    "lastChanged": "1526630545000",
+    "lastChanged": "1526922060567",
     "preview": "icon.png",
     "isReadOnly": "false",
     "studioVersion": {
@@ -22,15 +22,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "Box"
-                    ],
-                    [
-                        "Box_2"
-                    ],
-                    [
-                        "Diffuse"
-                    ],
                     [
                         "Diffuse Textures"
                     ],
@@ -67,23 +58,76 @@
                         "Normal_4"
                     ],
                     [
+                        "Images"
+                    ],
+                    [
+                        "Images",
+                        "bullseyeImage"
+                    ],
+                    [
+                        "Images",
+                        "hitImage"
+                    ],
+                    [
+                        "Images",
+                        "missImage"
+                    ],
+                    [
+                        "Materials"
+                    ],
+                    [
+                        "Materials",
+                        "Diffuse"
+                    ],
+                    [
+                        "Materials",
                         "Matte Shadow"
+                    ],
+                    [
+                        "Materials",
+                        "arrow"
+                    ],
+                    [
+                        "Materials",
+                        "arrow_body"
+                    ],
+                    [
+                        "Materials",
+                        "arrow_tip"
                     ],
                     [
                         "Meshes"
                     ],
                     [
                         "Meshes",
-                        "Sphere"
+                        "Box"
                     ],
                     [
-                        "Orthographic Camera Output"
+                        "Meshes",
+                        "Box_2"
                     ],
                     [
+                        "Meshes",
+                        "New Folder"
+                    ],
+                    [
+                        "Meshes",
                         "Plane"
                     ],
                     [
+                        "Meshes",
                         "Plane_2"
+                    ],
+                    [
+                        "Meshes",
+                        "Sphere"
+                    ],
+                    [
+                        "Meshes",
+                        "Sphere_2"
+                    ],
+                    [
+                        "Orthographic Camera Output"
                     ],
                     [
                         "Reindeer [REMOVE_ME]"
@@ -105,6 +149,9 @@
                     [
                         "Reindeer [REMOVE_ME]",
                         "Meshes"
+                    ],
+                    [
+                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -147,19 +194,7 @@
                         "imageHandler"
                     ],
                     [
-                        "Sphere"
-                    ],
-                    [
                         "Textures"
-                    ],
-                    [
-                        "arrow"
-                    ],
-                    [
-                        "arrow_body"
-                    ],
-                    [
-                        "arrow_tip"
                     ],
                     [
                         "bow_arrow"
@@ -202,9 +237,6 @@
                         "bow_arrow",
                         "Meshes",
                         "pCylinder7"
-                    ],
-                    [
-                        "bullseyeImage"
                     ],
                     [
                         "cyilnder"
@@ -256,12 +288,6 @@
                         "cyilnder",
                         "materials",
                         "white"
-                    ],
-                    [
-                        "hitImage"
-                    ],
-                    [
-                        "missImage"
                     ]
                 ],
                 "",
@@ -10496,7 +10522,13 @@
                     },
                     {
                         "name": "Meshes",
-                        "groups": "",
+                        "groups": [
+                            {
+                                "name": "New Folder",
+                                "groups": "",
+                                "resources": ""
+                            }
+                        ],
                         "resources": [
                             {
                                 "name": "ground_grid_mesh",
@@ -10521,6 +10553,31 @@
                             {
                                 "name": "Sphere",
                                 "resourceId": "1405",
+                                "extension": "mesh"
+                            },
+                            {
+                                "name": "Plane",
+                                "resourceId": "1451",
+                                "extension": "mesh"
+                            },
+                            {
+                                "name": "Plane_2",
+                                "resourceId": "1462",
+                                "extension": "mesh"
+                            },
+                            {
+                                "name": "Box",
+                                "resourceId": "1456",
+                                "extension": "mesh"
+                            },
+                            {
+                                "name": "Sphere_2",
+                                "resourceId": "1463",
+                                "extension": "mesh"
+                            },
+                            {
+                                "name": "Box_2",
+                                "resourceId": "1480",
                                 "extension": "mesh"
                             }
                         ]
@@ -10552,6 +10609,31 @@
                             {
                                 "name": "arrow_draw [EDIT_TEXTURES]",
                                 "resourceId": "685",
+                                "extension": ""
+                            },
+                            {
+                                "name": "arrow",
+                                "resourceId": "1444",
+                                "extension": ""
+                            },
+                            {
+                                "name": "Diffuse",
+                                "resourceId": "1448",
+                                "extension": ""
+                            },
+                            {
+                                "name": "Matte Shadow",
+                                "resourceId": "1461",
+                                "extension": ""
+                            },
+                            {
+                                "name": "arrow_tip",
+                                "resourceId": "1494",
+                                "extension": ""
+                            },
+                            {
+                                "name": "arrow_body",
+                                "resourceId": "1497",
                                 "extension": ""
                             }
                         ]
@@ -14188,78 +14270,34 @@
                             }
                         ],
                         "resources": ""
+                    },
+                    {
+                        "name": "Images",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "hitImage",
+                                "resourceId": "1512",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "bullseyeImage",
+                                "resourceId": "1513",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "missImage",
+                                "resourceId": "1514",
+                                "extension": "png"
+                            }
+                        ]
                     }
                 ],
                 "resources": [
                     {
-                        "name": "arrow",
-                        "resourceId": "1444",
-                        "extension": ""
-                    },
-                    {
-                        "name": "Diffuse",
-                        "resourceId": "1448",
-                        "extension": ""
-                    },
-                    {
-                        "name": "Plane",
-                        "resourceId": "1451",
-                        "extension": "mesh"
-                    },
-                    {
-                        "name": "Box",
-                        "resourceId": "1456",
-                        "extension": "mesh"
-                    },
-                    {
-                        "name": "Matte Shadow",
-                        "resourceId": "1461",
-                        "extension": ""
-                    },
-                    {
-                        "name": "Plane_2",
-                        "resourceId": "1462",
-                        "extension": "mesh"
-                    },
-                    {
-                        "name": "Sphere",
-                        "resourceId": "1463",
-                        "extension": "mesh"
-                    },
-                    {
-                        "name": "Box_2",
-                        "resourceId": "1480",
-                        "extension": "mesh"
-                    },
-                    {
-                        "name": "arrow_tip",
-                        "resourceId": "1494",
-                        "extension": ""
-                    },
-                    {
-                        "name": "arrow_body",
-                        "resourceId": "1497",
-                        "extension": ""
-                    },
-                    {
                         "name": "Orthographic Camera Output",
                         "resourceId": "1498",
                         "extension": ""
-                    },
-                    {
-                        "name": "hitImage",
-                        "resourceId": "1512",
-                        "extension": "png"
-                    },
-                    {
-                        "name": "bullseyeImage",
-                        "resourceId": "1513",
-                        "extension": "png"
-                    },
-                    {
-                        "name": "missImage",
-                        "resourceId": "1514",
-                        "extension": "png"
                     }
                 ]
             },
@@ -14534,19 +14572,19 @@
                 },
                 {
                     "id": "1451",
-                    "path": "Plane.mesh"
+                    "path": "Meshes\/Plane.mesh"
                 },
                 {
                     "id": "1456",
-                    "path": "Box.mesh"
+                    "path": "Meshes\/Box.mesh"
                 },
                 {
                     "id": "1462",
-                    "path": "Plane_2.mesh"
+                    "path": "Meshes\/Plane_2.mesh"
                 },
                 {
                     "id": "1463",
-                    "path": "Sphere.mesh"
+                    "path": "Meshes\/Sphere_2.mesh"
                 },
                 {
                     "id": "1464",
@@ -14582,7 +14620,7 @@
                 },
                 {
                     "id": "1480",
-                    "path": "Box_2.mesh"
+                    "path": "Meshes\/Box_2.mesh"
                 },
                 {
                     "id": "1495",
@@ -14594,15 +14632,15 @@
                 },
                 {
                     "id": "1512",
-                    "path": "hitImage.png"
+                    "path": "Images\/hitImage.png"
                 },
                 {
                     "id": "1513",
-                    "path": "bullseyeImage.png"
+                    "path": "Images\/bullseyeImage.png"
                 },
                 {
                     "id": "1514",
-                    "path": "missImage.png"
+                    "path": "Images\/missImage.png"
                 },
                 {
                     "id": "1515",
@@ -14613,7 +14651,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "101:100"
+                    "1526621459747537:73112"
                 ]
             }
         },
